@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+
 body{
     margin: 0;
 }
@@ -13,9 +17,10 @@ header {
 }
 
 h1 {
+    font-family:"roboto";
     text-align: center;
     color: black;
-    font-size: 8rem;
+    font-size: 6rem;
 }
 
 .ninjahead {
@@ -117,7 +122,33 @@ margin: 40px;
 }
 
 footer{
-     background-color: gray;
+     background-color: rgb(50, 50, 49);
+     color: aliceblue;
+     display: flex;
+     justify-content: space-evenly;
+     padding: 4em;
+     margin: 0px
      
+    }
+
+.nav p {
+    margin-bottom: -10px;
+}
+
+footer h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.nav {
+    margin-bottom: 2px;
+}
+
+.Adress {
+    max-width: 65px;
+}
+
+.media img {
+    margin-right: 6px;
 }
 
