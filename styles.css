@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #3DE07E;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 8rem;
+}
+
+.ninjahead {
+   margin: 0 auto 0 auto;
+    display: flex;
+    align-self: flex-end;
+    justify-self: center;
+    height: 8rem;
+}
+
+.menyknapp {
+    align-self: flex-start;
+    margin: 20px;
+}
+
+
+
+main {
+    background-color: black;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+}
+
+.huvudSection img {
+    width: 100%;
+    height: auto;
+}
+
+.huvudSection {
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw;
+    grid-template-rows: 55vh 55vh 55vh;
+    margin: 40px;
+    gap: 60px;
+    
+    
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+button {
+    background-color: #E83F57;
+    color: aliceblue;
+    border-color: #E83F57;
+    height: 3.5vh;
+    width: 8vw;
+    border-radius: 4px;
+    
+}
+
+
+.underSection img {
+    width: 100%;
+    height: auto;
+}
+
+.underSection {
+display: grid;
+grid-template-columns: 25vw 25vw;
+grid-template-rows: 80vh;
+gap: 60px;
+background-color: black;
+margin: 40px;
+}
+
+.underSection h2{
+    padding-left: 10px;
+}
+.underSection p{
+    padding-left: 10px;
+}
+.underSection button{
+    height: 5vh;
+    width: 10vw;
+    margin: 10px;
+}
+
+
+.fotograf {
+    background-color: aliceblue;
+    color: black;
+}
+
+.tränare {
+    background-color: aliceblue;
+    color: black;
+}
+
+footer{
+     background-color: gray;
+     
+}
+
